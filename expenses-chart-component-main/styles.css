@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    background-color: hsl(27, 66%, 92%);
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    width: 90%;
+}
+.header {
+    width: 100%;
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(33, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+.header h2 {
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.body {
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+.dark {
+    color: hsl(25, 47%, 15%);
+}
+.light {
+    color: hsl(28, 10%, 53%);
+}
+hr {
+    height: 3px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items:last baseline;
+    gap: 5px;
+    margin: 50px 0 20px;
+}
+
+.cover {
+    position: relative;
+    margin-bottom: 10px;
+}
+.charts .amount {
+    display: none;
+    font-size: 14px;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(33, 100%, 98%);
+    padding: 3px;
+    border-radius: 5px;
+    position: absolute;
+    left: -7px;
+    top: -33px;
+}
+
+.charts .bar {
+    width: 9vw;
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.charts .tue {
+    height: 100px;
+}
+.charts .wed {
+    height: 150px;
+    background-color: hsl(186, 34%, 60%);
+}
+.charts .thu {
+    height: 90px;
+}
+.charts .fri {
+    height: 70px;
+}
+.charts .sat {
+    height: 125px;
+}
+.charts .sun {
+    height: 80px;
+}
+
+.charts .bar:hover {
+    background-color: hsl(10, 85%, 74%);
+}
+.charts .bar:hover ~ .amount{
+    display: unset;
+}
+.charts .wed:hover {
+    background-color: hsl(187, 42%, 75%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.last {
+    align-self:last baseline;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .charts .bar {
+        width: 50px;
+    }
+    .charts {
+        gap: 10px;
+    }
+    .charts .amount {
+        font-size: 16px;
+        padding: 5px 10px;
+        left: -9px;
+        top: -40px;
+    }
+}
