@@ -22,8 +22,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Expenses-chart](https://github.com/olanrewajuyusuf/Expenses-chart-component)
+- Live Site URL: [Expenses Chart](https://wallewdev-expenses-chart.netlify.app/)
 
 ## My process
 
@@ -40,7 +40,6 @@ Have a long way to go...
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@olanrewajuyusuf](https://www.frontendmentor.io/profile/olanrewajuyusuf)
 - Twitter - [@WaliyyullahY](https://www.twitter.com/WaliyyullahY)
 
